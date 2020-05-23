@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/smoke-pure.css">
+    <script src="js/smoke-pure.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-overlaps/1.2.3/jquery.overlaps.min.js"></script>
+</head>
+
+<body>
+    <div class="container_plux">
+        <div class="product-one__tabs">
+            <div class="tabs__zhurko">
+                <div class="ulplu">
+                    <div class="liplu">
+                        <a href="#">
+                            <span class="tab active" data-id="1"></span>
+                            <span class="tab active" data-id="1"></span>
+                            <span class="tab active" data-id="1"></span>
+                            <span class="tab active" data-id="1"></span>
+                            <span class="fa fa-search tab active" data-id="1"><img class="lua"
+                                    src="images/лумпа.png"></span>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="tab_content">
+                <div class="tab-item active-tab" id="1">
+                    <div class="tab-question__plux">
+                        <div class="pluh">
+                            <img class="doska" src="images/plux/доска1.png">
+                            <img class="lichiko-v" src="images/plux/pl11.png">
+                            <img class="pl-oblako" src="images/plux/облако 1.png">
+                            <div class="inoboo">
+                                <p align="center">Приведи эту матрицу к</p>
+                                <p align="center">верхнетреугольному виду.</p>
+                            </div>
+                            <p class="cif1">24</p>
+                            <p class="cif2">8</p>
+                            <p class="cif3">12</p>
+                            <p class="cif4">6</p>
+                            <p class="cif5">5</p>
+                            <p class="cif6">3</p>
+                            <p class="cif7">2</p>
+                            <p class="cif8">3</p>
+                            <p class="cif9">6</p>
+                            <img class="listi1" src="images/plux/пустой лист.png">
+                            <img class="listi2" src="images/plux/пустой лист.png">
+                            <img class="kopka1" src="images/plux/кнопка1.png">
+                            <img class="kopka2" src="images/plux/кнопка1.png">
+                            <input onkeydown="keyCode(event)" oninput="f_Date(this,2)" class="buttons001" type="text" id="names01" maxlength="2" /><input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names02" maxlength="2"
+                            /><input onkeydown="keyCode(event)" oninput="f_Date(this,2)" class="buttons001" type="text" id="names03" maxlength="2" /><br />
+                            <input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names04" maxlength="2" /><input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names05" maxlength="2"
+                            /><input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names06" maxlength="2" /><br />
+                            <input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names07" maxlength="2" /><input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names08" maxlength="2"
+                            /><input onkeydown="keyCode(event)" oninput="f_Date(this,1)" class="buttons001" type="text" id="names09" maxlength="2" />
+                            <input type="button" onclick="proverka()" class="buto" value="Проверить" />
+                            <div class="videono">
+                                <iframe class="videono"></iframe>
+                            </div>
+                        </div>
+                        <script>
+                            function f_Date(el, n) {
+                                el.value = el.value.replace(/[^0-9-]/);
+                                if (el.value.length > n) el.value = el.value.substr(n);
+                                if (el.value.length == n) el.nextSibling.focus();
+                            }
+
+                            function proverka() {
+                                var mismatchSound = new Audio('audio__plux/6_sto-k-odnomu-ne-pra_ilnyy-ot_et (mp3cut.net).mp3');
+                                var matchSound = new Audio('audio__plux/line_open (mp3cut.net).mp3');
+                                if (document.getElementById("names01").value == "24" && document.getElementById("names02").value == "8" && document.getElementById("names03").value == "12" && document.getElementById("names04").value == "0" && document.getElementById("names05").value == "3" && document.getElementById("names06").value == "0" && document.getElementById("names07").value == "0" && document.getElementById("names08").value == "0" && document.getElementById("names09").value == "5") {
+                                    $('div.videono').css('display', 'block');
+                                    $('iframe.videono').prop('src', 'audio__plux/InShot_20200510_202845330.mp4');
+                                } else {
+                                    $('div.videono').css('display', 'block');
+                                    $('iframe.videono').prop('src', 'audio__plux/IMG_3810.MP4');
+                                }
+                            }
+                        </script>
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

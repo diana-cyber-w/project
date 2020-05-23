@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background: #d1eecc;
+    font-size: 20px;
+    color: #050507;
+    line-height: 0.1em;
+    font-family: 'Open Sans', sans-serif;
+    width: 1110px;
+    height: 672px;
+    position: relative
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.but {
+    position: absolute;
+    background-color: #4E9B42;
+    color: white;
+    border: 2px solid #4E9B42;
+    left: 5%;
+    top: 44%;
+    cursor: pointer;
+    padding: 0.4% 0.6%;
+}
+
+.perepel {
+    position: absolute;
+    height: 43.5%;
+    width: 32%;
+    bottom: 0;
+}
+
+.laptop {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.booble {
+    position: absolute;
+    bottom: 20%;
+    left: 23%;
+}
+
+.texst {
+    position: absolute;
+    right: 6%;
+    bottom: 18%;
+    border: 1px solid transparent;
+    border-width: 44.4%;
+    height: 45.3%;
+    padding: 3 px;
+}
+
+.inboo {
+    position: absolute;
+    bottom: 32%;
+    left: 26%;
+    border: 1px solid transparent;
+    padding: 3px;
+    z-index: 2;
+}
+
+.buttons001 {
+    border: 1px solid #d1eecc;
+    background-color: white;
+    color: black;
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    cursor: context-menu;
+    font-size: 24px;
+    color: #050507;
+}
+
+.buttons002 {
+    border: 1px solid #d1eecc;
+    background-color: #d1eecc;
+    color: #d1eecc;
+    text-align: center;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    cursor: context-menu;
+    font-size: 24px;
+    color: #050507;
+}
+
+.crossvord {
+    z-index: 3;
+}

@@ -1,0 +1,460 @@
+body {
+    margin: 0;
+    height: 2100px;
+    opacity: 1;
+    overflow-x: hidden;
+    background-size: cover;
+    background-color: #566784;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.fonaca {
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    top: 100%;
+    background: url("../images__main-page/акаедмия.png") no-repeat;
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+#ui {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.text1 {
+    position: absolute;
+    top: 0;
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    left: 27%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 50ch;
+    animation: printed-text1 9s steps(50);
+    font-family: monospace;
+}
+
+.text2 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 5%;
+    top: 8%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 45ch;
+    animation: printed-text2 11s steps(45);
+    font-family: monospace;
+}
+
+.text3 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 7%;
+    top: 12%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 38ch;
+    animation: printed-text3 13s steps(38);
+    font-family: monospace;
+}
+
+.text4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 1%;
+    top: 16%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 55ch;
+    animation: printed-text4 15s steps(55);
+    font-family: monospace;
+}
+
+.text5 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 45%;
+    top: 24%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 29ch;
+    animation: printed-text5 16.3s steps(29);
+    font-family: monospace;
+}
+
+.text6 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 20%;
+    top: 28%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 85ch;
+    animation: printed-text6 18.3s steps(85);
+    font-family: monospace;
+}
+
+.text7 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 30%;
+    top: 32%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 64ch;
+    animation: printed-text7 20.3s steps(64);
+    font-family: monospace;
+}
+
+.text8 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 34%;
+    top: 36%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 55ch;
+    animation: printed-text8 22.3s steps(55);
+    font-family: monospace;
+}
+
+.text9 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 7%;
+    top: 42%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 26ch;
+    animation: printed-text9 23.6s steps(26);
+    font-family: monospace;
+}
+
+.text10 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 1%;
+    top: 46%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 42ch;
+    animation: printed-text10 24.9s steps(42);
+    font-family: monospace;
+}
+
+.text11 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 4%;
+    top: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 35ch;
+    animation: printed-text11 26.2s steps(35);
+    font-family: monospace;
+}
+
+.text12 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 49%;
+    top: 58%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 44ch;
+    animation: printed-text12 28.2s steps(44);
+    font-family: monospace;
+}
+
+.text13 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 38%;
+    top: 62%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 68ch;
+    animation: printed-text13 30.2s steps(68);
+    font-family: monospace;
+}
+
+.text14 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 40%;
+    top: 66%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 64ch;
+    animation: printed-text14 32.2s steps(64);
+    font-family: monospace;
+}
+
+.text15 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 35%;
+    top: 74%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 37ch;
+    animation: printed-text15 33.5s steps(37);
+    font-family: monospace;
+}
+
+.text16 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 27%;
+    top: 78%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 60ch;
+    animation: printed-text16 34.8s steps(60);
+    font-family: monospace;
+}
+
+.text17 {
+    color: white;
+    font-size: 25px;
+    font-weight: 900;
+    position: absolute;
+    left: 47%;
+    top: 82%;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 8ch;
+    animation: printed-text17 35.5s steps(8);
+    font-family: monospace;
+}
+
+@keyframes printed-text1 {
+    0%,
+    77.8% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 50ch;
+    }
+}
+
+@keyframes printed-text2 {
+    0%,
+    81.8% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 45ch;
+    }
+}
+
+@keyframes printed-text3 {
+    0%,
+    84.6% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 38ch;
+    }
+}
+
+@keyframes printed-text4 {
+    0%,
+    86.7% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 55ch;
+    }
+}
+
+@keyframes printed-text5 {
+    0%,
+    92% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 29ch;
+    }
+}
+
+@keyframes printed-text6 {
+    0%,
+    89.1% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 85ch;
+    }
+}
+
+@keyframes printed-text7 {
+    0%,
+    90.1% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 64ch;
+    }
+}
+
+@keyframes printed-text8 {
+    0%,
+    91% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 55ch;
+    }
+}
+
+@keyframes printed-text9 {
+    0%,
+    94.5% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 26ch;
+    }
+}
+
+@keyframes printed-text10 {
+    0%,
+    94.8% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 42ch;
+    }
+}
+
+@keyframes printed-text11 {
+    0%,
+    95% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 35ch;
+    }
+}
+
+@keyframes printed-text12 {
+    0%,
+    92.9% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 44ch;
+    }
+}
+
+@keyframes printed-text13 {
+    0%,
+    93.4% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 68ch;
+    }
+}
+
+@keyframes printed-text14 {
+    0%,
+    93.8% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 64ch;
+    }
+}
+
+@keyframes printed-text15 {
+    0%,
+    96.1% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 37ch;
+    }
+}
+
+@keyframes printed-text16 {
+    0%,
+    96.3% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 60ch;
+    }
+}
+
+@keyframes printed-text17 {
+    0%,
+    98% {
+        display: none;
+        width: 0;
+    }
+    100% {
+        width: 8ch;
+    }
+}
